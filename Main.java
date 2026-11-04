@@ -6,7 +6,7 @@ import java.nio.file.StandardCopyOption;
 
 public class Main {
     public static void main(String[] args) {
-        String caminhoPasta = "C:\\Users\\Augusto\\Downloads";
+        String caminhoPasta = "C:\\Users\\Usuario\\PastaTeste";
         File pasta = new File(caminhoPasta);
 
         File[] arquivos = pasta.listFiles();
